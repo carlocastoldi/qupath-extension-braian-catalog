@@ -18,7 +18,7 @@ braian_extension = Extension(
     description="A collection of tools for whole-brain data quantification and extraction",
     author="Carlo Castoldi",
     homepage="https://github.com/carlocastoldi/qupath-extension-braian",
-    releases=[braian_release_104, braian_release_110]
+    releases=[braian_release_110, braian_release_104]
 )
 
 catalog = Catalog(
