@@ -10,6 +10,20 @@
             "starred": false,
             "releases": [
                 {
+                    "name": "v1.1.1",
+                    "main_url": "https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.1/qupath-extension-braian-1.1.1.jar",
+                    "required_dependency_urls": null,
+                    "optional_dependency_urls": null,
+                    "javadoc_urls": [
+                        "https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.1/qupath-extension-braian-1.1.1-javadoc.jar"
+                    ],
+                    "version_range": {
+                        "min": "v0.6.0",
+                        "max": null,
+                        "excludes": null
+                    }
+                },
+                {
                     "name": "v1.1.0",
                     "main_url": "https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.0/qupath-extension-braian-1.1.0.jar",
                     "required_dependency_urls": null,

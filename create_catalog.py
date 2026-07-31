@@ -15,12 +15,19 @@ braian_release_110 = Release(
     javadoc_urls=["https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.0/qupath-extension-braian-1.1.0-javadoc.jar"],
     version_range=braian_version_range_110
 )
+braian_version_range_111 = VersionRange(min="v0.6.0")
+braian_release_111 = Release(
+    name="v1.1.1",
+    main_url="https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.1/qupath-extension-braian-1.1.1.jar",
+    javadoc_urls=["https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.1/qupath-extension-braian-1.1.1-javadoc.jar"],
+    version_range=braian_version_range_111
+)
 braian_extension = Extension(
     name="QuPath BraiAn extension",
     description="A collection of tools for whole-brain data quantification and extraction",
     author="Carlo Castoldi",
     homepage="https://github.com/carlocastoldi/qupath-extension-braian",
-    releases=[braian_release_110, braian_release_104]
+    releases=[braian_release_111, braian_release_110, braian_release_104]
 )
 
 catalog = Catalog(
