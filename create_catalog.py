@@ -5,12 +5,14 @@ braian_version_range_104 = VersionRange(min="v0.5.0")
 braian_release_104 = Release(
     name="v1.0.4",
     main_url="https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.0.4/qupath-extension-braian-1.0.4.jar",
+    javadoc_urls=["https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.0.4/qupath-extension-braian-1.0.4-javadoc.jar"],
     version_range=braian_version_range_104
 )
 braian_version_range_110 = VersionRange(min="v0.6.0")
 braian_release_110 = Release(
     name="v1.1.0",
     main_url="https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.0/qupath-extension-braian-1.1.0.jar",
+    javadoc_urls=["https://github.com/carlocastoldi/qupath-extension-braian/releases/download/v1.1.0/qupath-extension-braian-1.1.0-javadoc.jar"],
     version_range=braian_version_range_110
 )
 braian_extension = Extension(
